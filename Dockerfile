@@ -9,7 +9,3 @@ RUN python -m pip install --upgrade pip
 RUN python -m pip install docker-compose
 
 WORKDIR /code
-
-RUN mkdir db_data
-
-ADD docker-compose.yml .
